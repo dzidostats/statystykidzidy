@@ -16,7 +16,7 @@ banned = []
 
 queue = asyncio.Queue()
 
-TOTAL = 1300000
+TOTAL = 1000
 PARTS = int(os.getenv("PARTS", "1"))
 PART = int(os.getenv("PART", "0"))
 
